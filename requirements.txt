@@ -1,0 +1,45 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Machine Learning & NLP
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+langchain>=0.1.0
+langchain-community>=0.0.10
+
+# Quantization Support (for GPTQ models on RTX 2050)
+auto-gptq>=0.4.2
+optimum>=1.12.0
+accelerate>=0.23.0
+
+# Vector Store
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have GPU support
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Database
+# For SQLite (built-in with Python)
+
+# Utilities
+numpy>=1.24.0
+python-multipart>=0.0.6  # For file uploads
+aiofiles>=23.2.1
+
+# Optional: For better text processing
+nltk>=3.8.1
+
+# Optional: For advanced evaluation (RAGAS)
+# ragas>=0.1.0  # Uncomment if you want to use full RAGAS evaluation
+
+# Development tools (optional)
+# pytest>=7.4.3
+# pytest-asyncio>=0.21.1
+# black>=23.11.0
+# flake8>=6.1.0
+
+
+
